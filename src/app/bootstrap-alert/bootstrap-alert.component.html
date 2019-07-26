@@ -1,0 +1,12 @@
+<div class="container-fluid">
+    <h1>Usando o ngx-bootstrap Alert!!</h1>
+    <div>
+        <label>Selecione uma classe:</label>
+        <select #class (change)="0">
+            <option value="alert alert-success">Sucesso</option>
+            <option value="alert alert-primary">padrão</option>
+            <option value="alert alert-danger">Erro</option>
+        </select>
+    </div>
+    <div [ngClass]="class.value" role="alert">classe: {{class.value}}</div>
+</div>

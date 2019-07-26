@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BootstrapAlertComponent } from './bootstrap-alert/bootstrap-alert.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BootstrapAlertComponent
   ],
   imports: [
     BrowserModule,
